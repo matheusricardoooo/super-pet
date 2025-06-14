@@ -1,0 +1,65 @@
+article {
+    width: 100vw;
+    padding: 100px;
+}
+
+.tittle h1 {
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat", serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+article .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 170px 0px 90px 0px;
+}
+
+article .content .description p {
+    width: 700px;
+    font-family: "Montserrat", serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+article .content .soon-img img {
+    width: 500px;
+    height: 120px;
+}
+
+@media screen and (max-width: 500px) {
+
+    article {
+        padding: 0;
+        padding: 80px;
+    }
+
+    .tittle h1 {
+        font-size: 2rem;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    article .content {
+        flex-direction: column-reverse;
+        padding: 0;
+        padding: 60px 0px;
+    }
+
+    article .content .soon-img img {
+        width: 330px;
+        height: 80px;
+    }
+
+    article .content .description p {
+        width: 250px;
+        font-size: 1rem;
+        font-weight: 500;
+        margin-left: 15px;
+        margin-top: 30px;
+    }
+
+}
