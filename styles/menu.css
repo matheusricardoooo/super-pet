@@ -3,8 +3,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
-    padding: 20px 87px;
+    padding: 30px 87px;
 }
 
 header .soon h1 {
