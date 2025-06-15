@@ -9,6 +9,6 @@
         sidebar.style.display = "none";
 }
 
-    function contact() {
-    document.getElementById("contact").scrollIntoView({ behavior: "smooth"})
+    function openWindowAgendar() {
+        window.open("https://agendar-eta.vercel.app/", "_blanck")
 }
