@@ -1,0 +1,105 @@
+#plans {
+    width: 100vw;
+    padding: 100px 40px;
+    border: solid 6px red;
+}
+
+.subject {
+    display: flex;
+    align-items: center;
+}
+
+.pet-img img {
+    width: 600px;
+    height: 500px;
+    margin-left: 30px;
+}
+
+.cards-plans {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-left: 210px;
+    gap: 10px;
+}
+
+.card-plan {
+    width: 469px;
+    height: 282px;
+    border: solid 2px #000000;
+    border-radius: 20px;
+}
+
+.card-plan h3 {
+    margin-left: 20px;
+    margin-top: 28px;
+    font-family: "Poppins", serif;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.card-plan ul {
+    font-family: "Montserrat", serif;
+    margin-left: 35px;
+    margin-top: 30px;
+}
+
+.card-plan li {
+    margin-top: 5px;
+}
+
+.primer {
+    font-weight: 600;
+}
+
+.card-plan button {
+    width: 366px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 50px;
+    background-color: #000000;
+    color: #F8D629;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.card-plan button:hover {
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 500px) {
+
+    .subject {
+        flex-direction: column;
+    }
+
+    .pet-img img {
+        width: 350px;
+        height: 250px;
+        margin: 0;
+        margin-top: 70px;
+    }
+
+    .card-plan {
+        width: 289px;
+        height: 392px;
+        margin: 0;
+        margin-top: 30px;
+    }
+
+    .card-plan button {
+        width: 200px;
+        margin: 0;
+        margin-top: 40px;
+        margin-left: 35px;
+    }
+
+    .card-plan button:hover {
+        transform: none;
+    }
+
+    .cards-plans {
+        margin: 0;
+    }
+
+}
